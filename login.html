@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - DIPSA BOOKSTORE</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background: #2980b9;
+            color: #fff;
+            padding: 10px 15px;
+            text-align: right;
+        }
+
+        header nav a {
+            text-decoration: none;
+            color: #000;
+            margin: 10px 15px;
+            font-size: 1.2em;
+        }
+
+        .login-container {
+            max-width: 400px;
+            margin: 50px auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+
+        input[type="email"],
+        input[type="password"] {
+            width: 95%;
+            padding: 9px;
+            margin-bottom: 20px;
+            border: 1px solid rgb(44, 185, 231);
+            border-radius: 4px;
+        }
+
+        input[type="submit"] {
+            background: rgb(44, 185, 231);
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 100%;
+        }
+
+        input[type="submit"]:hover {
+            background: #555;
+        }
+
+        .options {
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        .options a {
+            text-decoration: none;
+            color: #000;
+        }
+
+        .options a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="news.html">News</a>
+        <a href="about.html">About</a>
+        <a href="form.html">Form</a>
+    </nav>
+</header>
+
+<div class="login-container">
+    <h2>Login Pelanggan</h2>
+    <form >
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+
+        <input type="submit" value="Login">
+    </form>
+
+    <div class="options">
+        <p>Belum punya akun? <a>Daftar di sini</a></p>
+
+    </div>
+</div>
+
+</body>
+</html>

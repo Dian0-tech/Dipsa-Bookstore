@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News - Dipsa Bookstore</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f8ff;
+            color: #333;
+        }
+        /* Style Navbar */
+        .navbar {
+            width: 100%;
+            background-color: #2980b9;
+            padding: 10px 15px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+            box-shadow: 0 4px 10px rgb(0, 0, 0, 0.1);
+        }
+        .navbar ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: flex-end;
+            padding-right: 50px;
+        }
+        .navbar ul li {
+            margin: 0 15px;
+        }
+        .navbar ul li a {
+            color: black;
+            text-decoration: none;
+            font-size: 1.2em;
+            transition: color 0.3s ease;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 120px auto 50px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 15px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            margin-bottom: 40px;
+        }
+        .section {
+            display: flex;
+            border: 2px solid #2980b9;
+            border-radius: 12px;
+            margin-bottom: 30px;
+            overflow: hidden;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .section:hover {
+            transform: scale(1.02);
+            box-shadow: 0 6px 25px rgba(0, 0, 0, 0.15);
+        }
+        .image {
+            width: 40%;
+        }
+        .image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .content {
+            padding: 20px;
+            flex: 1;
+        }
+        h2 {
+            color: #2980b9;
+            margin-bottom: 15px;
+        }
+        p {
+            font-size: 1.1em;
+            line-height: 1.8;
+            margin-bottom: 10px;
+        }
+        .highlight {
+            color: #27ae60;
+            font-weight: bold;
+        }
+        .footer {
+            text-align: center;
+            font-size: 1.2em;
+            color: #000;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar at the top -->
+    <div class="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="form.html">Form</a></li>
+            <li><a href="login.html">Login</a></li>
+        </ul>
+    </div>
+
+    <!-- Main content -->
+    <div class="container">
+        <h1>News - Dipsa Bookstore</h1>
+
+        <div class="section">
+            <div class="image">
+                <img src="images/NEW.png" alt="Peluncuran Buku Terbaru">
+            </div>
+            <div class="content">
+                <h2>Peluncuran Koleksi Buku Terbaru!</h2>
+                <p> “Hai, teman-teman pembaca! Kami punya kabar gembira nih, koleksi buku terbaru sudah mendarat di Dipsa Bookstore! Dari novel penuh petualangan sampai buku pengembangan diri yang penuh inspirasi, ada banyak pilihan seru yang menanti kamu. Yuk, cek koleksinya sekarang sebelum kehabisan!</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="image">
+                <img src="images/diskon.png" alt="Promo dan Diskon Spesial">
+            </div>
+            <div class="content">
+                <h2>Promo dan Diskon Spesial!</h2>
+                <p>Kami punya kejutan untuk kamu! Diskon spesial untuk beberapa buku pilihan sedang berlangsung di Dipsa Bookstore. Ini saat yang tepat untuk menambah koleksi bacaanmu tanpa membuat kantong bolong. Cek promonya sekarang, jangan sampai terlewat ya!</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="image">
+                <img src="images/Rekomendasi.png" alt="Rekomendasi">
+            </div>
+            <div class="content">
+                <h2>Rekomendasi Buku</h2>
+                <p> Butuh inspirasi bacaan baru? Di Dipsa Bookstore, kami siap membantu! Kami sudah siapkan beberapa rekomendasi buku keren yang pasti cocok untuk menemani waktu luangmu. Yuk, intip rekomendasinya di sini!Punya penulis favorit? Yuk, gabung di acara Rekomendasi Buku</p>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>Terima kasih telah selalu mendukung Dipsa Bookstore. Nantikan berita terbaru kami!</p>
+        </div>
+    </div>
+
+</body>
+</html>
